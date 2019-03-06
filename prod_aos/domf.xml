@@ -4,7 +4,7 @@
     <remote name="yoctoproject" fetch="git://git.yoctoproject.org" />
     <remote name="openembedded" fetch="git://git.openembedded.org" />
     <remote name="linaro" fetch="git://git.linaro.org" />
-    <remote name="epam" fetch="ssh://git@gitpct.epam.com" />
+    <remote name="osdg" fetch="ssh://git@osdg.renesas.com" />
 
     <default remote="github" sync-j="10" sync-c="true" />
 
@@ -12,5 +12,5 @@
     <project remote="yoctoproject" name="poky" path="poky" upstream="rocko" revision="342fbd6a3e57021c8e28b124b3adb241936f3d9d" />
     <project remote="openembedded" name="meta-openembedded" path="meta-openembedded" upstream="rocko" revision="eae996301d9c097bcbeb8046f08041dc82bb62f8" />
     <project name="madisongh/meta-golang" path="meta-golang" upstream="rocko" revision="rocko" />
-    <project remote="epam" name="epmd-aepr/meta-aos" path="meta-aos" upstream="master" revision="master" />
+    <project remote="osdg" name="tomohiro.komagata.aj/meta-aos" path="meta-aos" upstream="master" revision="master" />
 </manifest>
